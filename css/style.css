@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: o;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+   width:90% ;
+   display: flex;
+    justify-content: space-between;
+   margin-left: 5%;
+   background-color: white;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.logo{
+  width: 20%;
+    background-color: white;
+}
+.logo img{
+
+}
+
+nav{
+    width: 50%;
+    background-color: white;
+    
+    
+    
+ }
+
+ nav ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ nav ul li{
+
+ }
+
+ nav ul li a{
+     text-decoration: none;
+     text-transform: uppercase;
+     color:#626262 ;
+     font-family: 'Playfair Display', serif;
+     font-size: 16px;
+
+     
+
+ }
+
+ .banner{
+     width: 90%;
+     margin-left: 5%;
+ }
+
+ .banner img{
+     width: 100%;
+
+ }
+
+ .photodiary{
+     width: 80%;
+     margin: auto;
+     padding: 60px;
+
+ }
+
+ .photodiary h6{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px ; 
+    color:#b4ad9e ;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
+ }
+
+ .photodiary h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 20px;
+
+ }
+
+ .photodiary p{
+    font-family: 'Playfair Display', serif;
+    color:#626262 ;
+    margin-bottom: 20px;
+
+ }
+ .photodiary h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px ; 
+    color:#b4ad9e ;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
+ }
+
+ .feature{
+     width: 80%;
+     display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between;
+     margin: auto;
+     padding: 60px o;
+     margin-bottom: 30px;
+ }
+
+ .item1{
+     width: 48%;
+
+ }
+
+ .item1 img{
+     width: 100%;
+     margin-bottom: 30px;
+
+ }
+ .item1 h6{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px ; 
+    color:#b4ad9e ;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+     
+
+ }
+
+ .item1 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 20px;
+
+ }
+
+ .item1 p{
+    font-family: 'Playfair Display', serif;
+    color:#626262 ;
+    margin-bottom: 20px; 
+
+ }
+
+ .item2{
+    width: 48%;
+
+}
+
+.item2 img{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.item2 h6{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px ; 
+    color:#b4ad9e ;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
+}
+
+.item2 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 20px;
+
+}
+
+.item2 p{
+    font-family: 'Playfair Display', serif;
+    color:#626262 ;
+    margin-bottom: 20px;
+
+}
+
+.item3{
+    width: 48%;
+
+}
+
+.item3 img{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.item3 h6{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px ; 
+    color:#b4ad9e ;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
+}
+
+.item3 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 20px;
+
+}
+
+.item3 p{
+    font-family: 'Playfair Display', serif;
+    color:#626262 ;
+    margin-bottom: 20px;
+
+}
+
+.item4{
+    width: 48%;
+
+}
+
+.item4 img{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.item4 h6{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px ; 
+    color:#b4ad9e ;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
+}
+
+.item4 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 20px;
+
+}
+
+.item4 p{
+    font-family: 'Playfair Display', serif;
+    color:#626262 ;
+    margin-bottom: 20px;
+
+}
+
+.signup{
+    background-color:#f0f0f0;
+    padding: 100px
+   
+
+}
+    
+.form{
+    width: 27%;
+    margin: auto;
+    position: relative;s
+
+}
+
+.form h1{
+   font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: #626262;
+    margin-bottom: 50px; 
+    font-weight: 500;
+
+}
+
+.form input{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    width: 100%;
+    padding-bottom: 5px;
+
+
+}
+
+.form input::placeholder{
+    color:#626262;
+    font-family:'Playfair Display', serif;
+    font-weight: 200; 
+    
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.icon img{
+
+}
+
+.feature2nd{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 100px;
+
+}
+
+.item5{
+    width: 48%;
+
+}
+
+.item5 img{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.item5 h6{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px ; 
+    color:#b4ad9e ;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
+}
+
+.item5 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 20px;
+
+}
+
+.item5 p{
+    font-family: 'Playfair Display', serif;
+    color:#626262 ;
+    margin-bottom: 20px;
+}
+
+.item6{
+    width: 48%;
+
+}
+
+.item6 img{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.item6 h6{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px ; 
+    color:#b4ad9e ;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
+}
+
+.item6 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 20px;
+
+}
+
+.item6 p{
+    font-family: 'Playfair Display', serif;
+    color:#626262 ;
+    margin-bottom: 20px;
+}
+.loadmore{
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.loadmore button{
+    background: transparent;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    color:#626262 ;
+    cursor: pointer;
+
+}
+
+footer{
+    background-color: #f0f0f0;
+    padding: 50px 0;
+
+}
+.footer_content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.terms{ 
+
+}
+
+.terms ul{
+    list-style: none;
+    display: flex;
+
+}
+.terms ul li{
+    margin-right: 15px;
+
+}
+.terms ul li a{
+    color: #626262;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+.social_icon{
+    
+
+}
+
+.social_icon ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.social_icon ul li{
+    margin-left: 15px;
+
+}
+
+.social_icon ul li a{
+    text-decoration: none;
+    color: #626262;
+
+}
+
